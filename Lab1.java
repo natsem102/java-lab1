@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 class Lab1 {
     private final Scanner sc = new Scanner(System.in);
-
-    // Методы ввода, с проверкой
     private int readInt(String msg, int min, int max) {
         while (true) {
             System.out.print(msg);
@@ -201,7 +199,6 @@ class Lab1 {
         return Arrays.copyOf(res, n);
     }
 
-    // Запускаем выбранную задачку
     private void run(int c) {
         switch (c) {
             case 1:
